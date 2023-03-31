@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Color Flipper</title>
+        <style>
+            #corpo {
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 100px;
+                width: 600px;
+                height: 200px;
+                border: solid;
+                border-color: black;
+                /*box-shadow: 20px 16px black;*/
+                box-shadow: 10px 20px 7px black;
+            }
+            button {
+                margin-top: 20px;
+            }
+            h1 {
+                margin-top: 20px;
+                font-size:xx-large;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="corpo">
+        <h1>Clique para mudar a cor !</h1>
+            <button type="button" class="btn btn-outline-danger btn-lg" onclick="mudarCor()">Click me</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
